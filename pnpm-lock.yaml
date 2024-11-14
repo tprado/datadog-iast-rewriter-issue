@@ -1,0 +1,38 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@datadog/native-iast-rewriter':
+        specifier: 2.5.0
+        version: 2.5.0
+
+packages:
+
+  '@datadog/native-iast-rewriter@2.5.0':
+    resolution: {integrity: sha512-WRu34A3Wwp6oafX8KWNAbedtDaaJO+nzfYQht7pcJKjyC2ggfPeF7SoP+eDo9wTn4/nQwEOscSR4hkJqTRlpXQ==}
+    engines: {node: '>= 10'}
+
+  lru-cache@7.18.3:
+    resolution: {integrity: sha512-jumlc0BIUrS3qJGgIkWZsyfAM7NCWiBcCDhnd+3NNM5KbBmLTgHVfWBcg6W+rLUsIpzpERPsvwUP7CckAQSOoA==}
+    engines: {node: '>=12'}
+
+  node-gyp-build@4.8.3:
+    resolution: {integrity: sha512-EMS95CMJzdoSKoIiXo8pxKoL8DYxwIZXYlLmgPb8KUv794abpnLK6ynsCAWNliOjREKruYKdzbh76HHYUHX7nw==}
+    hasBin: true
+
+snapshots:
+
+  '@datadog/native-iast-rewriter@2.5.0':
+    dependencies:
+      lru-cache: 7.18.3
+      node-gyp-build: 4.8.3
+
+  lru-cache@7.18.3: {}
+
+  node-gyp-build@4.8.3: {}

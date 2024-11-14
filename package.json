@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "test": "node rewrite-using-iast.js && node input.js && node --require=./preload.js output.js"
+  },
+  "packageManager": "pnpm@9.12.2",
+  "dependencies": {
+    "@datadog/native-iast-rewriter": "2.5.0"
+  }
+}
